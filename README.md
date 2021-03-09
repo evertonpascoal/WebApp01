@@ -1,11 +1,11 @@
 # WebApp01 Asp.net Core 
-Essa aplicação é para testar as funcionalidades listadas abaixo. 
-Não segue nenhum Padrão de Projeto.
+This app is just a test of fewes features from .NET 5.
 
- - Injeção de Dependência (principalmente da conexão do banco) 
- - Não usar Entity Framework 
- - Design em 3 camadas (rest, service, dao ou algo parecido) 
- - Teste unitário funcional 
+Essa aplicação é apenas para testar as funcionalidades listadas abaixo no .Net 5. 
+ - Injeção de Dependência 
+ - Não usar Entity Framework (USANDO DAPPER)
+ - Design em 3 camadas 
+ - Teste unitário funcional (APENAS PROJETO)
  - Teste unitário arquitetural (ArchUnit p.e.)
  - Gerar métricas para Prometheus 
  - Gerar Health Check 
