@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WebApp01.Shared.Domain;
+
+namespace WebApp01.Shared.Interfaces
+{
+    public interface IPersonService
+    {
+        Task<IEnumerable<Person>> GetAll();
+        Task<Person> Get(Guid id);
+        Task<Person> Add(Person person);
+        Task Update();
+        Task Delete();
+
+    }
+}

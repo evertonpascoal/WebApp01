@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApp01.Web</name>
+    </assembly>
+    <members>
+        <member name="M:SampleA.Controllers.JaegerController.Get">
+            <summary>
+            Metodo criado para testar o OpenTracing
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApp01.Web.Controllers.PersonController.Get">
+            <summary>
+            Recupera todas as pessoas cadastradas
+            </summary>
+            <returns>Lista de pessoas cadastradas</returns>
+        </member>
+        <member name="M:WebApp01.Web.Controllers.PersonController.Get(System.Guid)">
+            <summary>
+            Recupera uma Pessoa utilizando o ID
+            </summary>
+            <param name="id">Indentificador da Pessoa</param>
+            <returns>Retorna uma pessoa</returns>
+        </member>
+        <member name="T:WebApp01.Web.Jaeger.InjectOpenTracingHeaderHandler">
+            <summary>
+            Esse handler garante que toda requisição a ServiceB terá os cabeçalhos necessários conforme especificação do OpenTracing.
+            </summary>
+        </member>
+        <member name="T:WebApp01.Web.Prometheus.ResponseMetricMiddleware">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

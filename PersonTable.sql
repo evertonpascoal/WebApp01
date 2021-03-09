@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Person]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(80) NOT NULL, 
+    [DateOfBith] DATETIME NOT NULL, 
+    [Nickname] NVARCHAR(12) NULL, 
+    [Weight] SMALLINT NULL
+)
